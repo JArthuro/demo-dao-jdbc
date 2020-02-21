@@ -4,6 +4,7 @@ import java.util.List;
 
 import model.entities.Seller;
 
+//Interface que cria os contratos das operações que serão realizadas no DB.
 public interface SellerDao {
 	
 	void insert (Seller obj);	
